@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="flex flex-col items-center justify-center w-full h-80 bg-[url('/bg-header.jpg')] bg-cover bg-no-repeat bg-center relative overflow-hidden lg:h-[500px]">
+    <header className="flex flex-col items-center justify-center w-full h-80 bg-[url('/bg-header.jpg')] bg-cover bg-no-repeat bg-center relative overflow-hidden lg:h-[500px] max-w-[1920px]">
 
       {/* Overlay de opacidade */}
       <div className="absolute inset-0 bg-black/88" />
