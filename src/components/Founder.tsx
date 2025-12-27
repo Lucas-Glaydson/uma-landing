@@ -6,7 +6,7 @@ const Founder = () => {
       flex flex-col items-center
       w-full max-w-[1920px] px-4 lg:px-8
       lg:flex-row-reverse lg:justify-evenly
-      gap-8 lg:gap-12 py-12 lg:py-20 lg:mt-10
+      gap-8 lg:gap-12 py-12 lg:py-20 lg:my-16 
     ">
       <Line />
 

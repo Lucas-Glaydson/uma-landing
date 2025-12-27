@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import Contacts from './components/Contacts'
 import DonateBtn from './components/DonateBtn'
 import Founder from './components/Founder'
 import Header from './components/Header'
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Founder />
       <WeAre />
+      <Contacts />
     </main>
   )
 }
