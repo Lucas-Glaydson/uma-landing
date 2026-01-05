@@ -1,9 +1,6 @@
-import Line from "./Line";
-
 const Contacts = () => {
   return (
-    <section className="h-52 flex items-center flex-col justify-center gap-5 lg:gap-10 lg:h-62 w-full">
-      <Line></Line>
+    <section id="contacts" className="h-72 flex items-center flex-col justify-center gap-5 lg:gap-10 lg:h-62 w-full lg:py-40">
       <article >
         <h1 className="text-center text-2xl lg:text-4xl font-bold">Nos encontre de forma rápida!</h1>
       </article>

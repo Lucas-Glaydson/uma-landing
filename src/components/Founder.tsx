@@ -2,13 +2,12 @@ import Line from "./Line";
 
 const Founder = () => {
   return (
-    <section className="
+    <section id="founder" className="
       flex flex-col items-center
       w-full max-w-[1920px] px-4 lg:px-8
       lg:flex-row-reverse lg:justify-evenly
-      gap-8 lg:gap-12 py-12 lg:py-20 lg:my-16 
+      gap-8 lg:gap-12 lg:py-20
     ">
-      <Line />
 
       <div className="flex flex-col justify-center max-w-2xl lg:text-left">
         <h1 className="text-2xl lg:text-4xl font-bold mb-6 text-center">
@@ -32,6 +31,8 @@ const Founder = () => {
         src="founder.jpg"
         alt="image founder"
       />
+
+      <Line />
     </section>
   );
 };
