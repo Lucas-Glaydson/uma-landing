@@ -1,7 +1,7 @@
 import { useDonate } from '../context/DonateContext';
 
 const DonateBtn = () => {
-  const { isVisible, toggleDonate } = useDonate();
+  const { toggleDonate } = useDonate();
 
   return (
     <button
