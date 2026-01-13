@@ -14,7 +14,7 @@ interface DonateProviderProps {
 }
 
 export function DonateProvider({ children }: DonateProviderProps) {
-  const [isVisible, setIsVisible] = useState<boolean>(true);
+  const [isVisible, setIsVisible] = useState<boolean>(false);
 
   const toggleDonate = () => setIsVisible(prev => !prev);
   const hideDonate = () => setIsVisible(false);
