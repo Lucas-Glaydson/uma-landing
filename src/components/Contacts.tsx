@@ -5,16 +5,16 @@ const Contacts = () => {
         <h1 className="text-center text-2xl lg:text-4xl font-bold">Nos encontre de forma rápida!</h1>
       </article>
       <nav className="flex justify-center items-center gap-4">
-        <a href="https://www.instagram.com/uniaodemaesdeanjos.pe/">
+        <a href="https://www.instagram.com/uniaodemaesdeanjos.pe/" target="_blank">
           <img src="insta.svg" alt="Instagram" />
         </a>
-        <a href="">
+        <a href="" target="_blank">
           <img src="facebook.svg" alt="Facebook" />
         </a>
-        <a href="">
+        <a href="" target="_blank">
           <img src="whats.svg" alt="Whatsapp" />
         </a>
-        <a href="">
+        <a href="" target="_blank">
           <img src="email.svg" alt="Email" />
         </a>
       </nav>
